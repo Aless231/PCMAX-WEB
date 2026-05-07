@@ -1,0 +1,145 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #0f172a;
+}
+
+header {
+    background-color: #1e293b;
+    color: white;
+    padding: 10px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: lightgreen;
+}
+
+main {
+    padding: 20px;
+    color: white;
+}
+
+footer {
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 250px;
+}
+
+.producto{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    margin-bottom:40px;
+}
+
+.producto img{
+    width:250px;
+}
+
+.info{
+    color:white;
+    max-width:500px;
+}
+
+.info h3{
+    margin-bottom:10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 0 auto;
+}
+
+#presupuesto{
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+#contacto{
+    text-align: center;
+}
+
+.contenedor-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.texto{
+    text-align: left;
+}
+
+#instagram{
+    position: absolute;
+    right: 720px;
+    top: 30px;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+#x{
+    position: absolute;
+    left: 720px;
+    top: 30px;
+    border-radius: 10px;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+
+/* Efecto al pasar el ratón */
+#instagram:hover, #x:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.logo{
+    position: absolute;
+    width: 125px;
+    top: 25px;
+    border-radius: 10px;
+    left: 30px;
+}
+
+.parrafos{
+    text-align: center;
+}
+
